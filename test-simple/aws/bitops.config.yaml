@@ -1,0 +1,15 @@
+aws:
+  cli:
+    validate-cfn: true
+    cfn-stack-action: deploy
+    version: test
+  options:
+    cfn-stack-name: unqiue-stack-name3
+    cfn-s3-bucket: s3-test-multiregion
+    cfn-s3-prefix: single-deployment
+    cfn-create-bucket: true
+    cfn-files:
+      template-file: template.yaml
+      parameters:
+        enabled: true
+        template-param-file: parameters.json

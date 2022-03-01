@@ -1,0 +1,12 @@
+[
+  {
+    "ParameterKey": "TemplateBucket",
+    "ParameterValue": "s3-test-multiregion",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "S3TemplateKey",
+    "ParameterValue": "us-west-2",
+    "UsePreviousValue": false
+  }
+]
