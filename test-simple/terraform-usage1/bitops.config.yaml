@@ -1,4 +1,4 @@
-aws:
+terraform:
   cli:
     validate-cfn: true
     cfn-stack-action: deploy
