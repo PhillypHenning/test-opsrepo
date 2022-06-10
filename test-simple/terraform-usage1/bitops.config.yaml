@@ -13,3 +13,4 @@ terraform:
       parameters:
         enabled: true
         template-param-file: parameters.json
+    command: plan
